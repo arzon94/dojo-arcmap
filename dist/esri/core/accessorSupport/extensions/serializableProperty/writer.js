@@ -1,0 +1,3 @@
+//>>built
+define(["require","exports","dojo/_base/lang","./type"],function(n,g,h,k){function l(a,c,e,b){h.setObject(e,f(a,b),c)}function f(a,c){return a&&"function"==typeof a.write?a.write({},c):a&&"function"==typeof a.toJSON?a.toJSON():a}function m(a,c,e,b){var d;null===a?d=null:a&&"function"==typeof a.map?(d=a.map(function(a){return f(a,b)}),"function"==typeof d.toArray&&(d=d.toArray())):d=[f(a,b)];h.setObject(e,d,c)}Object.defineProperty(g,"__esModule",{value:!0});g.create=function(a,c,e,b){b.write&&!b.write.writer&&
+!1!==b.write.enabled&&(c||k.isCollection(a)?b.write.writer=m:b.write.writer=l)}});

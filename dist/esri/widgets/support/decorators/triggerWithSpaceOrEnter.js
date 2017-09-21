@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports","../../../core/Logger","./accessibleHandler"],function(d,a,b,c){Object.defineProperty(a,"__esModule",{value:!0});a.triggerWithSpaceOrEnter=function(){return b.getLogger("esri.widgets.support.decorators.triggerWithSpaceOrEnter").warn("@triggerWithSpaceOrEnter is deprecated, use @accessibleHandler instead."),c.accessibleHandler.apply(this,arguments)}});

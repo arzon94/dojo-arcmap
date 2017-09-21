@@ -1,0 +1,2 @@
+//>>built
+define(["../../core/Accessor"],function(a){return a.createSubclass({declaredClass:"esri.tasks.support.StatisticDefinition",properties:{maxPointCount:null,maxRecordCount:null,maxVertexCount:null,onStatisticField:null,outStatisticFieldName:null,statisticType:null},toJSON:function(){return{statisticType:this.statisticType,onStatisticField:this.onStatisticField,outStatisticFieldName:this.outStatisticFieldName,maxPointCount:this.maxPointCount,maxRecordCount:this.maxRecordCount,maxVertexCount:this.maxVertexCount}}})});

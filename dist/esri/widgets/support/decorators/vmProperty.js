@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports","../../../core/accessorSupport/decorators"],function(f,a,d){Object.defineProperty(a,"__esModule",{value:!0});a.vmProperty=function(a){var b=this;return console.warn("@vmProperty is deprecated, use @aliasOf instead"),function(e,c){d.property.call(b,{aliasOf:"viewModel."+(a||c)}).call(b,e,c)}}});

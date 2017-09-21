@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../Portal ../PortalItem ../../config ../../tasks/GeometryService ../../core/promiseUtils ../../core/Error".split(" "),function(l,d,e,k,f,g,b,h){Object.defineProperty(d,"__esModule",{value:!0});d.create=function(a){if(void 0===a&&(a=null),f.geometryServiceUrl)return b.resolve(new g({url:f.geometryServiceUrl}));if(!a)return b.reject(new h("internal:geometry-service-url-not-configured"));var c;return a.isInstanceOf(k)?c=a.portal||e.getDefault():a.isInstanceOf(e)&&(c=a),c.load().then(function(a){if(a.helperServices&&
+a.helperServices.geometry&&a.helperServices.geometry.url)return b.resolve(new g({url:a.helperServices.geometry.url}));throw new h("internal:geometry-service-url-not-configured");})}});

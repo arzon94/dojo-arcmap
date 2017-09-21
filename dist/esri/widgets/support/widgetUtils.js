@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports","../../core/Logger"],function(e,a,d){function c(){for(var a=[],b=0;b<arguments.length;b++)a[b]=arguments[b];return a.join(" ")}Object.defineProperty(a,"__esModule",{value:!0});a.classes=function(){return d.getLogger("esri.widgets.support.widgetUtils").warn("classes is deprecated, use join instead."),c.apply(this,arguments)};a.join=c;a.isRtl=function(){return"rtl"===document.head.dir}});

@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports","./get"],function(h,b,g){function d(e,a,c){if(e&&a)if("object"==typeof a){c=0;for(var b=Object.getOwnPropertyNames(a);c<b.length;c++){var f=b[c];d(e,f,a[f])}}else if("_"!==a[0]){if(-1!==a.indexOf("."))return a=a.split("."),f=a.splice(a.length-1,1)[0],void d(g["default"](e,a),f,c);e[a]=c}}Object.defineProperty(b,"__esModule",{value:!0});b.set=d;b["default"]=d});

@@ -1,0 +1,2 @@
+//>>built
+define({noItemsToDisplay:"Zurzeit sind keine anzuzeigenden Elemente vorhanden.",layerInvisibleAtScale:"Der Layer ist im aktuellem Ma\u00dfstab nicht sichtbar.",layerError:"Beim Laden dieses Layers ist ein Fehler aufgetreten.",untitledLayer:"Unbenannter Layer"});

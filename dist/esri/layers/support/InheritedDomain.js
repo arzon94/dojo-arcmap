@@ -1,0 +1,2 @@
+//>>built
+define("require exports ../../core/tsSupport/declareExtendsHelper ../../core/tsSupport/decorateHelper ../../core/accessorSupport/decorators ./Domain".split(" "),function(b,f,d,c,a,e){b=function(b){function a(a){a=b.call(this,a)||this;return a.type="inherited",a}return d(a,b),a}(a.declared(e));return c([a.property()],b.prototype,"type",void 0),b=c([a.subclass("esri.layers.support.InheritedDomain")],b)});

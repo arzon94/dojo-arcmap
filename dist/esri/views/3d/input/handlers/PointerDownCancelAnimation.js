@@ -1,0 +1,3 @@
+//>>built
+define(["require","exports","../../../../core/tsSupport/extendsHelper","../../../input/InputHandler"],function(a,c,e,f){Object.defineProperty(c,"__esModule",{value:!0});a=function(a){function b(b,c){var d=a.call(this,"esri.views.3d.input.handlers.PointerDownCancelAnimation",!0)||this;return d.view=b,d.registerIncoming("pointer-down",c,function(a){return d._handlePointerDown(a)}),d}return e(b,a),b.prototype._handlePointerDown=function(a){this.view.navigation.stop()},b}(f.InputHandler);c.PointerDownCancelAnimation=
+a});

@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../../core/tsSupport/declareExtendsHelper ../../core/tsSupport/decorateHelper ../../core/accessorSupport/decorators ../../core/Accessor".split(" "),function(b,f,d,c,a,e){b=function(b){function a(a){a=b.call(this,a)||this;return a.extraParameters=null,a.outSpatialReference=null,a.template=null,a.view=null,a}return d(a,b),a}(a.declared(e));return c([a.property()],b.prototype,"extraParameters",void 0),c([a.property()],b.prototype,"outSpatialReference",void 0),c([a.property()],
+b.prototype,"template",void 0),c([a.property()],b.prototype,"view",void 0),b=c([a.subclass("esri.tasks.support.PrintParameters")],b)});

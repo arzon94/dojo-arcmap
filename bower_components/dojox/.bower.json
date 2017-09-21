@@ -1,0 +1,41 @@
+{
+  "name": "dojox",
+  "main": "main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "licenses": [
+    "BSD-3-Clause",
+    "AFL-2.1"
+  ],
+  "ignore": [
+    ".*",
+    "tests"
+  ],
+  "keywords": [
+    "JavaScript",
+    "Dojo",
+    "Toolkit",
+    "DojoX"
+  ],
+  "authors": [],
+  "homepage": "http://dojotoolkit.org/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dojo/dojox.git"
+  },
+  "dependencies": {
+    "dojo": "1.12.2",
+    "dijit": "1.12.2"
+  },
+  "devDependencies": {},
+  "_release": "v1.12.2/esri-3.21.0",
+  "_resolution": {
+    "type": "tag",
+    "tag": "v1.12.2/esri-3.21.0",
+    "commit": "49296adb3680a75bf24ccbe51153b4ed3e1bdd0d"
+  },
+  "_source": "git://github.com/Esri/dojox.git",
+  "_target": "v1.12.2/esri-3.21.0",
+  "_originalSource": "Esri/dojox"
+}

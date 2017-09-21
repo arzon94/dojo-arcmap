@@ -1,0 +1,2 @@
+//>>built
+define("require exports ../../../core/tsSupport/declareExtendsHelper ../../../core/tsSupport/decorateHelper ../../../core/accessorSupport/decorators ./FeatureLayerView2D ../../layers/StreamLayerView".split(" "),function(a,g,d,c,b,e,f){a=function(a){function b(){return a.call(this)||this}return d(b,a),b}(b.declared(f,e));return c([b.property({aliasOf:"controller.graphics",readOnly:!0})],a.prototype,"graphics",void 0),a=c([b.subclass("esri.views.2d.layers.StreamLayerView2D")],a)});

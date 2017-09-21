@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports"],function(l,b){function d(b,a,d,e){var f=null,g=1E3;"number"==typeof a?(g=a,e=d):(f=a,g=d);var h,c=0,k=function(){c=0;b.apply(e,h)};a=function(){for(var a=[],b=0;b<arguments.length;b++)a[b]=arguments[b];f&&f.apply(e,a);h=a;c||(c=setTimeout(k,g))};return a.remove=function(){c&&(clearTimeout(c),c=0)},a.forceUpdate=function(){c&&(clearTimeout(c),k())},a}Object.defineProperty(b,"__esModule",{value:!0});b.throttle=d;b["default"]=d});

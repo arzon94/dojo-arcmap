@@ -1,0 +1,3 @@
+//>>built
+define(["../../../core/Accessor","./SceneViewAltitudeConstraint","./SceneViewClipDistanceConstraint","./SceneViewTiltConstraint","./SceneViewCollisionConstraint"],function(c,d,e,f,g){return c.createSubclass([],{declaredClass:"esri.views.3d.constraints.SceneViewConstraints",properties:{tilt:f,altitude:d,clipDistance:e,collision:g},getDefaults:function(a){var b={};return a.tilt||(b.tilt={}),a.altitude||(b.altitude={}),a.clipDistance||(b.clipDistance={}),a.collision||(b.collision={}),b},scale:function(a){this.tilt.scale(a);
+this.altitude.scale(a);this.clipDistance.scale(a)}})});

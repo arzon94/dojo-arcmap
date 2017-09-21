@@ -1,0 +1,2 @@
+//>>built
+define(["../../core/declare","dojo/_base/lang","../../core/lang"],function(a,b,c){return a(null,{declaredClass:"esri.layers.support.KMLFolder",constructor:function(a){b.mixin(this,a);c.isDefined(this.visibility)&&(this.visible=!!this.visibility)}})});

@@ -1,0 +1,3 @@
+//>>built
+define(["require","exports","./gl-matrix"],function(c,n,e){var g=e.vec3d;c=function(){function c(a,b){this._origins=[];this._boxSize=a;this._maxNumOrigins=b}return c.prototype.getOrigin=function(d){for(var b,e=this._origins.length,h=!1,k=Number.MAX_VALUE,f=0;e>f;f++){var l=this._origins[f];g.subtract(d,l.vec3,a);a[0]=Math.abs(a[0]);a[1]=Math.abs(a[1]);a[2]=Math.abs(a[2]);var m=a[0]+a[1]+a[2];k>m&&(b=l,k=m,h=a[0]<this._boxSize&&a[1]<this._boxSize&&a[2]<this._boxSize)}h||b&&null!=this._maxNumOrigins&&
+!(this._origins.length<this._maxNumOrigins)||(b=c.OFFSET,b={vec3:[d[0]+b,d[1]+b,d[2]+b],id:c.ORIGIN_PREFIX+this._origins.length},this._origins.push(b));return b},c}();c.OFFSET=1.11;c.ORIGIN_PREFIX="fb_";var a=g.create();return c});

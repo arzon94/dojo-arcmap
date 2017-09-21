@@ -1,0 +1,2 @@
+//>>built
+define({attach:"Anlagen",fields:"Felder",fieldsSummary:"Liste der Attribute und Werte",media:"Medien",next:"Weiter",numCharts:"Anzahl der Diagramme",numImages:"Anzahl der Bilder",noTitle:"Ohne Titel",previous:"Zur\u00fcck",view:"Anzeigen"});

@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../core/tsSupport/extendsHelper ../core/tsSupport/decorateHelper ../core/typescript ./core/ExtensionBase ../tasks/support/FeatureSet".split(" "),function(a,k,d,e,f,g,h){a=function(a){function b(){return a.call(this)||this}return d(b,a),b.prototype._messageReceived=function(a){var b=this;"execute"===a.functionName.toLowerCase()&&this.getDataSourceProxy(a.args.dataSourceId).then(function(c){b._execute(c,new h(a.args.featureSet),a.args.configuration||a.args.config)})},b.prototype._execute=
+function(a,b,c){this.emit("execute",{dataSourceProxy:a,features:b,config:c})},b}(g);a=e([f.subclass()],a);return new a});

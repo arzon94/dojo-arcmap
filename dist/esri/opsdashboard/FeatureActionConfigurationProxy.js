@@ -1,0 +1,2 @@
+//>>built
+define("require exports ../core/tsSupport/extendsHelper ../core/tsSupport/decorateHelper ../core/typescript ./core/ExtensionConfigurationBase".split(" "),function(a,f,d,b,c,e){a=function(a){function b(){return null!==a&&a.apply(this,arguments)||this}return d(b,a),b}(e);return b([c.shared("esri.opsdashboard.FeatureActionConfigurationProxy")],a.prototype,"declaredClass",void 0),a=b([c.subclass()],a)});

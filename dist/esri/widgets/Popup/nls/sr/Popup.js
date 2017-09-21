@@ -1,0 +1,2 @@
+//>>built
+define({zoom:"Zumiraj na",next:"Slede\u0107i geoobjekat",previous:"Prethodni geoobjekat",close:"Zatvori",dock:"Usidri",undock:"Opozovi usidrenje",menu:"Meni",untitled:"Bez naslova",pageText:"{index} od {total}",noFeaturesFound:"Nije prona\u0111en nijedan geoobjekat",selectedFeature:"Izabrani geoobjekat",selectedFeatures:"{total} rezultata",loading:"U\u010ditavanje"});

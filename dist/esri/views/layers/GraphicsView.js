@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../../core/tsSupport/declareExtendsHelper ../../core/tsSupport/decorateHelper ../../core/accessorSupport/decorators ../../core/Accessor ../../core/Collection ../../Graphic".split(" "),function(b,h,d,c,a,e,f,g){b=function(b){function a(){var a=null!==b&&b.apply(this,arguments)||this;return a.graphics=null,a.renderer=null,a.view=null,a}return d(a,b),a}(a.declared(e));return c([a.property({type:f.ofType(g)})],b.prototype,"graphics",void 0),c([a.property()],b.prototype,"renderer",
+void 0),c([a.property()],b.prototype,"view",void 0),b=c([a.subclass("esri.views.layers.GraphicsView")],b)});

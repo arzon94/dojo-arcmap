@@ -1,0 +1,2 @@
+//>>built
+define(["../../core/JSONSupport","../../geometry/Extent"],function(a,b){return a.createSubclass({declaredClass:"esri.layers.support.MapImage",properties:{extent:{type:b},height:null,href:null,scale:null,width:null,visible:!0,opacity:1}})});

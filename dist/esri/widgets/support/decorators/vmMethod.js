@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports","../../../core/accessorSupport/get"],function(h,b,d){Object.defineProperty(b,"__esModule",{value:!0});b.vmMethod=function(){return console.warn("@vmMethod is deprecated, use @aliasOf instead"),function(b,f,g){var c,e="viewModel."+f;g.value=function(){for(var b=[],a=0;a<arguments.length;a++)b[a]=arguments[a];return(a=d["default"](this,e))?(c||(c=e.split(".").slice(0,-1).join(".")),a=a.bind(d["default"](this,c)),a.call.apply(a,[this].concat(b))):void 0}}}});

@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports","../../../../navigation/Momentum"],function(c,a,b){Object.defineProperty(a,"__esModule",{value:!0});a.ScreenspaceMomentumEstimator=b.ScreenspaceMomentumEstimator;a.ScreenspaceMomentum=b.ScreenspaceMomentum});

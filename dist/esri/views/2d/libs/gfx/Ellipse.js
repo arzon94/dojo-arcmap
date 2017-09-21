@@ -1,0 +1,2 @@
+//>>built
+define(["require","exports","../../../../core/tsSupport/extendsHelper","dojox/gfx/_base","./Shape"],function(c,d,e,f,g){Object.defineProperty(d,"__esModule",{value:!0});c=function(c){function b(a){var b=c.call(this)||this;return b.shape=f.getDefault("Ellipse"),b.rawNode=a,b}return e(b,c),b.prototype.getBoundingBox=function(){if(!this.bbox){var a=this.shape;this.bbox={x:a.cx-a.rx,y:a.cy-a.ry,width:2*a.rx,height:2*a.ry}}return this.bbox},b}(g["default"]);c.nodeType="ellipse";d["default"]=c});

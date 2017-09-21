@@ -1,0 +1,40 @@
+{
+  "name": "dijit",
+  "main": "main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "licenses": [
+    "BSD-3-Clause",
+    "AFL-2.1"
+  ],
+  "ignore": [
+    ".*",
+    "tests"
+  ],
+  "keywords": [
+    "JavaScript",
+    "Dojo",
+    "Toolkit",
+    "Dijit"
+  ],
+  "authors": [],
+  "homepage": "http://dojotoolkit.org/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dojo/dijit.git"
+  },
+  "dependencies": {
+    "dojo": "1.12.2"
+  },
+  "devDependencies": {},
+  "_release": "v1.12.2/esri-3.21.0",
+  "_resolution": {
+    "type": "tag",
+    "tag": "v1.12.2/esri-3.21.0",
+    "commit": "b9428e21795143e25a6c39443465a5969fad4d12"
+  },
+  "_source": "git://github.com/Esri/dijit.git",
+  "_target": "v1.12.2/esri-3.21.0",
+  "_originalSource": "Esri/dijit"
+}

@@ -1,0 +1,2 @@
+//>>built
+define([],function(){return{updateSupportFromPoint:function(d,c,e){var b=d.hasZ,a=d.hasM;Array.isArray(c)?4!==c.length||a||b?3===c.length&&e&&!a?(b=!0,a=!1):3===c.length&&a&&b&&(a=!1,b=!1):(a=!0,b=!0):(b=!b&&c.hasZ&&(!a||c.hasM),a=!a&&c.hasM&&(!b||c.hasZ));d.hasZ=b;d.hasM=a}}});

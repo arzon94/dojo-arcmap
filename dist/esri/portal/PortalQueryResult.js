@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../core/tsSupport/declareExtendsHelper ../core/tsSupport/decorateHelper ../core/accessorSupport/decorators ../core/Accessor".split(" "),function(b,f,d,c,a,e){b=function(b){function a(a){a=b.call(this)||this;return a.nextQueryParams=null,a.queryParams=null,a.results=null,a.total=null,a}return d(a,b),a}(a.declared(e));return c([a.property()],b.prototype,"nextQueryParams",void 0),c([a.property()],b.prototype,"queryParams",void 0),c([a.property()],b.prototype,"results",void 0),
+c([a.property()],b.prototype,"total",void 0),b=c([a.subclass("esri.portal.PortalQueryResult")],b)});

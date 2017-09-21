@@ -1,0 +1,3 @@
+//>>built
+define({travelMode:"Reisemodus",viewActive:"Durch Klicken auf die Karte wird ein Stopp hinzugef\u00fcgt",showStop:"Diesen Stopp anzeigen",addStopTitle:"Neuen Stopp hinzuf\u00fcgen",addStop:"+",dndHandle:"Ziehen, um die Reihenfolge der Stopps zu \u00e4ndern",serviceTime:"Service-Zeit",serviceDistance:"Service-Entfernung",leaveNow:"Jetzt losfahren",departBy:"Abfahrt um",gmt:"GMT",time:{min:"Min.",hr:"Std"},units:{esriKilometers:{name:"Kilometer",abbr:"km"},esriMeters:{name:"Meter",abbr:"m"},esriMiles:{name:"Meile(n)",
+abbr:"mi"},esriFeet:{name:"Fu\u00df",abbr:"ft"},esriYards:{name:"Yard",abbr:"yd"},esriNauticalMiles:{name:"Seemeile(n)",abbr:"sm"}},traffic:{average:"in der Regel",none:"Keine Verkehrsinfo",heavy:"Dichter Verkehr",light:"Leichter Verkehr"}});

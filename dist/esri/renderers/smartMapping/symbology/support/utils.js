@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../../../../geometry/ScreenPoint ../../../../core/screenUtils ../../../../Basemap ../../../../support/basemapUtils".split(" "),function(l,b,e,f,h,k){function g(a){var d=a.width,c=a.height,b=a.pixelSizeAt(new e(.5*d,.5*c));0>=b&&(b=a.pixelSizeAt(new e(.5*d,.95*c)),0>=b)&&(d=a.camera.position.clone(),d.z=0,b=2*a.pixelSizeAt(d));return b}Object.defineProperty(b,"__esModule",{value:!0});b.getPixelSize=g;b.toWorldScale=function(a,b){return Math.ceil(g(b)*f.pt2px(f.toPt(a)))};b.getStorageType=
+function(a){return"multipoint"===a?"point":"mesh"===a?"polygon":a};b.getBasemapId=function(a,b){var c=null;return"string"==typeof a&&-1<b.indexOf(a)?c=a:a instanceof h&&(c=k.getWellKnownBasemapId(a)),c||"gray"}});

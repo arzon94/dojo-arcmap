@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../../../../core/tsSupport/declareExtendsHelper ../../../../core/tsSupport/decorateHelper ../../../../core/Accessor ../../../../core/Loadable ../../../../core/accessorSupport/decorators".split(" "),function(a,g,d,c,e,f,b){a=function(a){function b(b){return a.call(this)||this}return d(b,a),b}(b.declared(e,f));return c([b.property()],a.prototype,"geometryType",void 0),c([b.property()],a.prototype,"objectIdField",void 0),c([b.property()],a.prototype,"supportsSQLExpression",void 0),
+c([b.property()],a.prototype,"hasLocalSource",void 0),a=c([b.subclass()],a)});

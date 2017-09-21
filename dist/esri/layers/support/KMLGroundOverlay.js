@@ -1,0 +1,2 @@
+//>>built
+define(["../../core/declare","../../core/lang","./MapImage"],function(a,b,c){return a([c],{declaredClass:"esri.layers.support.KMLGroundOverlay",constructor:function(a){b.isDefined(this.visibility)&&(this.visible=!!this.visibility)}})});

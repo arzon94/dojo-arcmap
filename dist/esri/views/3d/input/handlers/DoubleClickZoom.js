@@ -1,0 +1,3 @@
+//>>built
+define(["require","exports","../../../../core/tsSupport/extendsHelper","../../../input/InputHandler","../../../input/handlers/support"],function(a,e,f,g,h){Object.defineProperty(e,"__esModule",{value:!0});a=function(a){function d(k,b){var c=a.call(this,"esri.views.3d.input.handlers.DoubleClickZoom",!0)||this;return c.view=k,c.registerIncoming("double-click",b,function(a){return c._handleDoubleClick(a)}),c}return f(d,a),d.prototype._handleDoubleClick=function(a){var b=a.data;h.eventMatchesPointerType(b["native"],
+"primary")&&(this.view.navigation.zoom.stepScreen(Math.log(.5)/Math.log(.6),[b.x,this.view.height-b.y]),a.stopPropagation())},d}(g.InputHandler);e.DoubleClickZoom=a});

@@ -1,0 +1,3 @@
+//>>built
+define("require exports ../core/tsSupport/extendsHelper ../core/tsSupport/decorateHelper ../core/typescript ./core/ExtensionConfigurationBase".split(" "),function(a,g,e,c,d,f){a=function(a){function b(){return null!==a&&a.apply(this,arguments)||this}return e(b,a),b.prototype._initializeResponseReceived=function(a){var b=this;this.inherited(arguments).then(function(){return b.getMapWidgetProxy(b.config.mapWidgetId).then(function(a){this.mapWidgetProxy=a})})},b}(f);return c([d.shared("esri.opsdashboard.MapToolConfigurationProxy")],
+a.prototype,"declaredClass",void 0),a=c([d.subclass()],a)});
