@@ -36,7 +36,8 @@
         <a href="#" id="AccessibilityRoutes">Accessibility Routes</a>
         <a href="#" id="ComputerLabs_Merge">Computers and Printers</a>
         <a href="#" id="Web_Cams">Webcams</a>
-        <a href="#" id="aed" onclick="toggleAEDs()">AED Locations</a>
+        <a href="#" id="Emergency_Phones">Emergency Phones</a>
+        <a href="#" id="aed">AED Locations</a>
       </byu-menu>
     </byu-header>
     <div class="page-content">
@@ -75,12 +76,16 @@
             [".", ".", /(\/\.)|(~$)|(test|txt|src|min|templates)/]
           ]
         }
-      ]
+      ],
+      // Use the smaller, faster "lite" CSS selector engine, which works in all browsers IE8+
+			selectorEngine: 'lite'
+      // Fix the loader to use normal AMD resolution of unregistered module paths (relative to `baseUrl`)
+			// instead of the legacy Dojo resolution method (relative to the parent directory of `baseUrl`)
     };
   </script>
 
   <!-- Can use Dojo loader directly -->
-  <script src="dojo/dojo.js"></script>
+  <script src="dojo/dojo.js" data-dojo-config="async: true"></script>
   <script>
     require(['app/main'], function(App) {
       var app = App;

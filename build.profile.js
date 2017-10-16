@@ -47,12 +47,14 @@ var profile = {
   // Strips all calls to console functions within the code. You can also set this to "warn" to strip everything
   // but console.error, and any other truthy value to strip everything but console.warn and console.error.
   // This defaults to "normal" (strip all but warn and error) if not provided.
-  stripConsole: "none", // if set to "all" will remove all console messages, include warnings and errors.
+  //stripConsole: "none", // if set to "all" will remove all console messages, include warnings and errors.
+  stripConsole: "normal", // if set to "all" will remove all console messages, include warnings and errors.
 
   // The default selector engine is not included by default in a dojo.js build in order to make mobile builds
   // smaller. We add it back here to avoid that extra HTTP request. There is also an "acme" selector available; if
   // you use that, you will need to set the `selectorEngine` property in index.html, too.
-  selectorEngine: "acme",
+  //selectorEngine: "acme",
+  selectorEngine: "lite",
 
   // A list of packages that will be built. The same packages defined in the loader should be defined here in the
   // build profile.
@@ -109,14 +111,14 @@ var profile = {
         "dojo/_base/browser",
 
         // esri stuff for 3D maps
-        "esri/portal/support/layersCreator",
-        "esri/views/3d/layers/VectorTileLayerView3D",
-        "esri/views/3d/layers/ElevationLayerView3D",
-        "esri/views/3d/webgl-engine/lib/FloatingBoxLocalOriginFactory",
-        "esri/views/3d/webgl-engine/lib/Layer",
-        "esri/views/3d/webgl-engine/lib/MaterialCollection",
-        "esri/views/3d/webgl-engine/lib/Octree",
-        "esri/views/3d/webgl-engine/lib/TextTextureAtlas"
+        // "esri/portal/support/layersCreator",
+        // "esri/views/3d/layers/VectorTileLayerView3D",
+        // "esri/views/3d/layers/ElevationLayerView3D",
+        // "esri/views/3d/webgl-engine/lib/FloatingBoxLocalOriginFactory",
+        // "esri/views/3d/webgl-engine/lib/Layer",
+        // "esri/views/3d/webgl-engine/lib/MaterialCollection",
+        // "esri/views/3d/webgl-engine/lib/Octree",
+        // "esri/views/3d/webgl-engine/lib/TextTextureAtlas"
       ],
       // You can define the locale for your application if you like
       includeLocales: ["en-us"]

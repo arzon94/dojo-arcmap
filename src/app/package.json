@@ -1,5 +1,5 @@
 {
-    "name": "app",
+    "name": "BYU Campus Map",
     "description": "My Application.",
     "version": "1.0",
     "dojoBuild": "package.js"

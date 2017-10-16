@@ -72,7 +72,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.esri-layer-list {
+.esri-ui-corner .esri-widget--panel {
   width: unset;
 }
 
@@ -95,6 +95,10 @@ byu-footer {
 }
 
 .popupText {}
+
+.esri-layer-list__item-toggle-icon, .esri-layer-list__item-title {
+  color: white;
+}
 
 @media screen and (max-width: 600px) {
   .panel-side {
